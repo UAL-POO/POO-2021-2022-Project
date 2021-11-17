@@ -672,10 +672,10 @@ A avaliação qualitativa irá considerar que existem várias formas de resolver
 - Justificação clara para os atributos e operações dos objetos;
 - Organização da solução coerente com a metodologia apresentada na unidade curricular.
 
-TODO: XX% (i.e., 3.333 valores) da avaliação qualitativa serão atribuídos ao modelo preliminar.
+A utilização de pacotes não incluídos na distribuição padrão Java (JDK 17) está sujeita a aprovação pela docência.
+
+40% (i.e., 4 valores em 10) da avaliação qualitativa serão atribuídos ao modelo preliminar.
 
 A implementação estrita de todas as instruções descritas neste enunciado assegura, sem prejuízo de reprovação por irregularidade académica, a nota mínima de 10 valores.
-
-A utilização de pacotes não incluídos na distribuição padrão Java (JDK 17) está sujeita a aprovação pela docência.
 
 As notas finais do projeto serão disponibilizadas no *e-learning*.
