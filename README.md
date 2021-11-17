@@ -615,7 +615,7 @@ As baterias serão distribuídas através do repositório git de referência, na
 
 ### Entrega de modelo
 
-O modelo deve ser entregue no Moodle, através de um ficheiro `.pdf`, onde deve constar a identificação completa do grupo de trabalho, e o diagrama de classes detalhado da solução proposta.
+O modelo deve ser entregue no Moodle, através de um ficheiro `.pdf` ou `.svg`, onde deve constar o diagrama de classes detalhado da solução proposta (em formato vetorial).
 
 ### Entrega final
 
