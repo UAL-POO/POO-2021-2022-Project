@@ -645,7 +645,16 @@ A não comparência na prova de autoria implica a anulação da participação i
 
 ## Avaliação
 
-O projeto é avaliado com base em duas componentes: quantitativa (*A*), e qualitativa (*B*). A nota final do projeto é determinada por *(0.5 x A) + (0.5 x B)*.
+O projeto corresponde a 50% (10% + 40%) da avaliação contínua, e tem duas componentes:
+- 20% Modelo de solução (primeira entrega);
+   - Representa 10% da nota final de avaliação contínua (2 valores).
+- 80% Implementação (entrega final).
+   - Representa 40% da nota final de avaliação contínua (8 valores);
+   - Está sujeita a prova de autoria, i.e., a nota individual da implementação do projeto é resultado da ponderação da prova de autoria e nota da implementação;
+   - A implementação estrita de todas as instruções descritas neste enunciado assegura, sem prejuízo de reprovação por irregularidade académica, a nota mínima de 10 na implementação (antes da poderação individual);
+   - Pode ser utilizada para substituir a parte prática do exame.
+
+A implementação do projeto é avaliada com base em duas componentes: quantitativa (*A*), e qualitativa (*B*). A nota final da implementação é determinada por *(0.5 x A) + (0.5 x B)*.
 
 | Instrução | Peso      |
 | --------- | --------- |
@@ -676,10 +685,4 @@ A avaliação qualitativa irá considerar que existem várias formas de resolver
 
 A utilização de pacotes não incluídos na distribuição padrão Java (JDK 17) está sujeita a aprovação pela docência.
 
-40% (i.e., 4 valores em 10) da avaliação qualitativa será atribuída ao modelo preliminar. O modelo corresponde a 2 valores da nota final de avaliação contínua.
-
-A implementação estrita de todas as instruções descritas neste enunciado assegura, sem prejuízo de reprovação por irregularidade académica, a nota mínima de 10 valores no projeto (antes da poderação individual).
-
-A nota individual do projeto é resultado da ponderação da prova de autoria e nota do projeto.
-
-As notas finais individuais do projeto serão disponibilizadas no *e-learning*.
+As notas finais do projeto, incluindo modelo e notas individuais de implementação, serão disponibilizadas no *e-learning*.
