@@ -217,11 +217,11 @@ Saída com insucesso:
 
 Adiciona um novo participante a um projeto de um utilizador.
 
-`IdentificadorUtilizador` é o identificador único de um utilizador, criador do projeto. `IdentificadorProjeto` é o identificador do projeto. `IdentificadorUtilizadorParticipante` é o identificador único de um utilizador a adicionar como participante no projeto.
+`IdentificadorUtilizador` é o identificador único de um utilizador, criador do projeto. `IdentificadorProjeto` é o identificador do projeto. `IdentificadorUtilizadorParticipante` é o identificador único de um utilizador a adicionar como participante no projeto. `TipoDeParticipante` é o tipo de participante, i.e., `Gestor` ou `Membro`.
 
 Entrada:
 
-      PAP IdentificadorUtilizador IdentificadorProjeto IdentificadorUtilizadorParticipante
+      PAP IdentificadorUtilizador IdentificadorProjeto IdentificadorUtilizadorParticipante TipoDeParticipante
 
 Saída com sucesso:
 
