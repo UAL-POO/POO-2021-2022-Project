@@ -51,7 +51,7 @@ Existem *projetos*, que correspondem a coleções de *bookmarks*. Para associar 
 
 Um projeto tem um nome único e uma data de criação. Além de *bookmarks*, um projeto pode conter diretórios de *bookmarks*. Um diretório pode também conter outros diretórios.
 
-Além do utilizador criador do projeto, podem ainda ser associados mais dois tipos de utilizador participante: gestores e membros. Um gestor de um projeto pode adicionar e remover *bookmarks* e diretórios; um membro de um projeto pode adicionar e remover *bookmarks*. O criador do diretório é também considerado participante.
+Além do utilizador criador do projeto, podem ainda ser associados mais dois tipos de utilizador participante: gestores e membros. Um gestor de um projeto pode adicionar e remover *bookmarks* e diretórios; um membro de um projeto pode adicionar e remover *bookmarks*. O criador do projeto é também considerado gestor.
 
 Existem ainda *sessões*, que correspondem a coleções de *bookmarks*, sem diretórios. Uma sessão tem um nome único, uma data de criação, e pertence a um utilizador.
 
