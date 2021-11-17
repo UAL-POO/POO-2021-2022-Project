@@ -581,7 +581,7 @@ Saída com insucesso:
 
 ## Estrutura do projeto e repositório git
 
-O desenvolvimento do projeto deve ser suprotado pelo repositório no Github Classroom.
+O desenvolvimento do projeto deve ser suportado pelo repositório no Github Classroom.
 
 O código deve ser mantido dentro de um diretório `src`.
 
@@ -646,13 +646,15 @@ A não comparência na prova de autoria implica a anulação da participação i
 ## Avaliação
 
 O projeto corresponde a 50% (10% + 40%) da avaliação contínua, e tem duas componentes:
+
 - 20% Modelo de solução (primeira entrega);
-   - Representa 10% da nota final de avaliação contínua (2 valores).
+  - Representa 10% da nota final de avaliação contínua (2 valores);
+  - Consiste num diagrama de classes detalhado.
 - 80% Implementação (entrega final).
-   - Representa 40% da nota final de avaliação contínua (8 valores);
-   - Está sujeita a prova de autoria, i.e., a nota individual da implementação do projeto é resultado da ponderação da prova de autoria e nota da implementação;
-   - A implementação estrita de todas as instruções descritas neste enunciado assegura, sem prejuízo de reprovação por irregularidade académica, a nota mínima de 10 na implementação (antes da poderação individual);
-   - Pode ser utilizada para substituir a parte prática do exame.
+  - Representa 40% da nota final de avaliação contínua (8 valores);
+  - Está sujeita a prova de autoria, i.e., a nota individual da implementação do projeto é resultado da ponderação da prova de autoria e nota da implementação;
+  - A implementação estrita de todas as instruções descritas neste enunciado assegura, sem prejuízo de reprovação por irregularidade académica, a nota mínima de 10 na implementação (antes da ponderação individual);
+  - Pode ser utilizada para substituir a parte prática do exame.
 
 A implementação do projeto é avaliada com base em duas componentes: quantitativa (*A*), e qualitativa (*B*). A nota final da implementação é determinada por *(0.5 x A) + (0.5 x B)*.
 
