@@ -55,7 +55,7 @@ Além do utilizador criador do projeto, podem ainda ser associados mais dois tip
 
 Existem ainda *sessões*, que correspondem a coleções de *bookmarks*, sem diretórios. Uma sessão tem um nome único, uma data de criação, e pertence a um utilizador.
 
-Os *bookmark* e sessões podem ser assinalados como *pessoal*, *trabalho*, ou *outros*, pelos utilizadores aos quais pertencem (ver [Tabela 1](#tab-types)).
+Os *bookmark* podem ser assinalados como *pessoal*, *trabalho*, ou *outros*, pelos utilizadores aos quais pertencem (ver [Tabela 1](#tab-types)).
 
 <div id="tab-types">Tabela 1: Tipos de <i>bookmark</i>, com indicação de ordem e restrições de partilha respetivas.</div>
 
