@@ -637,6 +637,8 @@ A ausência de identificação individual no ficheiro de relatório implica a an
 
 Todos os projetos entregues serão sujeitos a prova de autoria. Para esse efeito, cada grupo terá que efetuar uma discussão com a docência, de forma a demonstrar que o código entregue foi de facto feito pelo grupo, e que a distribuição de trabalho foi equilibrada.
 
+O resultado da prova determina uma ponderação individual a aplicar à nota final do projeto.
+
 O calendário das provas de autoria será disponibilizado no *e-learning*, após o prazo de entrega da implementação do projeto.
 
 A não comparência na prova de autoria implica a anulação da participação individual no projeto.
@@ -674,8 +676,10 @@ A avaliação qualitativa irá considerar que existem várias formas de resolver
 
 A utilização de pacotes não incluídos na distribuição padrão Java (JDK 17) está sujeita a aprovação pela docência.
 
-40% (i.e., 4 valores em 10) da avaliação qualitativa serão atribuídos ao modelo preliminar.
+40% (i.e., 4 valores em 10) da avaliação qualitativa será atribuída ao modelo preliminar. O modelo corresponde a 2 valores da nota final de avaliação contínua.
 
-A implementação estrita de todas as instruções descritas neste enunciado assegura, sem prejuízo de reprovação por irregularidade académica, a nota mínima de 10 valores.
+A implementação estrita de todas as instruções descritas neste enunciado assegura, sem prejuízo de reprovação por irregularidade académica, a nota mínima de 10 valores no projeto (antes da poderação individual).
 
-As notas finais do projeto serão disponibilizadas no *e-learning*.
+A nota individual do projeto é resultado da ponderação da prova de autoria e nota do projeto.
+
+As notas finais individuais do projeto serão disponibilizadas no *e-learning*.
