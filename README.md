@@ -97,7 +97,7 @@ Regista um novo utilizador.
 
 Entrada:
 
-    RC Nome
+    UR Nome
 
 Saída com sucesso:
 
