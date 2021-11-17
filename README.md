@@ -243,8 +243,7 @@ Mostra o conjunto de *bookmark* num projeto, incluindo os diretórios e sub-dire
 
 Os *bookmarks* são mostrados por ordem de data de registo, e por ordem lexicográfico de nome dentro da mesma data. Os diretórios são mostrados por ordem lexicográfica de nome.
 
-
-`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `NomeProjeto` é o nome do projeto. `NomeBookmark` é o nome de um *bookmark*, e `URL` é o url do *bookmark*. `NomeDiretório` é o nome de um diretório ou sub-diretório do projeto.
+`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `NomeProjeto` é o nome do projeto. `NomeBookmark` é o nome de um *bookmark*, e `URL` é o url do *bookmark*. `NomeDiretório` é o nome de um diretório ou sub-diretório do projeto. `IdentificadorUtilizadorCriadorDeBookmark` é o identificador do utilizador que registou inicialmente o *bookmark*. `IdentificadorUtilizadorQueAdicionou` é o identificador do utilizador participante no projeto que adicionou o *bookmark*.
 
 Entrada:
 
@@ -253,17 +252,17 @@ Entrada:
 Saída com sucesso:
 
       NomeProjeto
-      NomeBookmark [URL]
-      NomeBookmark [URL]
+      NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
+      NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
       ...
-      NomeDiretório : NomeBookmark [URL]
-      NomeDiretório : NomeBookmark [URL]
+      NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
+      NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
       ...
-      NomeDiretório > NomeDiretório : NomeBookmark [URL]
-      NomeDiretório > NomeDiretório : NomeBookmark [URL]
+      NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
+      NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
       ...
-      NomeDiretório > NomeDiretório > NomeDiretório : NomeBookmark [URL]
-      NomeDiretório > NomeDiretório > NomeDiretório : NomeBookmark [URL]
+      NomeDiretório > NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
+      NomeDiretório > NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
       ...
 
 Saída com insucesso:
@@ -673,7 +672,7 @@ A avaliação qualitativa irá considerar que existem várias formas de resolver
 - Justificação clara para os atributos e operações dos objetos;
 - Organização da solução coerente com a metodologia apresentada na unidade curricular.
 
-10% (i.e., 1 valor) da avaliação qualitativa serão atribuídos ao modelo preliminar.
+TODO: XX% (i.e., 3.333 valores) da avaliação qualitativa serão atribuídos ao modelo preliminar.
 
 A implementação estrita de todas as instruções descritas neste enunciado assegura, sem prejuízo de reprovação por irregularidade académica, a nota mínima de 10 valores.
 
