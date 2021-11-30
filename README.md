@@ -279,7 +279,7 @@ Saída com insucesso:
 
 Adiciona um *bookmark* a um projeto de um utilizador.
 
-`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `IdentificadorUtilizadorParticipante` é o identificador de um utilizador participante no projeto, que pretende adicionar o *bookmark*. `IdentificadorUtilizadorBookmark` é o identificador do utilizador que registou o bookmark. `NomeBookmark` é o nome do *bookmark*, único no conjunto de *bookmarks* do utilizador que o registou.
+`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `IdentificadorUtilizadorParticipante` é o identificador de um utilizador participante no projeto, que pretende adicionar o *bookmark*. `IdentificadorUtilizadorBookmark` é o identificador do utilizador que registou o bookmark. `NomeBookmark` é o nome do *bookmark*, único no conjunto de *bookmarks* do utilizador que o registou. 'NomeDiretório' é o nome de um diretório no projeto.
 
 Os identificadores de utilizador `IdentificadorUtilizadorParticipante` e `IdentificadorUtilizadorBookmark` podem ser diferentes, caso o *bookmark* tenha sido partilhado.
 
@@ -287,6 +287,7 @@ Entrada:
 
       PAB IdentificadorUtilizador IdentificadorProjeto IdentificadorUtilizadorParticipante
       IdentificadorUtilizadorBookmark NomeBookmark
+      NomeDiretório > NomeDiretório > ...
 
 Saída com sucesso:
 
