@@ -295,7 +295,7 @@ Saída com sucesso:
 
 Saída com insucesso:
 
-- Quando o identificador de utilizador não corresponde a um identificador registado.
+- Quando pelo menos um dos identificadores de utilizador não corresponde a um identificador registado.
 
       Utilizador inexistente.
 
@@ -315,7 +315,7 @@ Saída com insucesso:
 
 Remove um *bookmark* de um projeto.
 
-`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `IdentificadorUtilizadorParticipante` é o identificador de um utilizador participante no projeto. `IdentificadorUtilizadorBookmark` é o identificador do utilizador que registou o bookmark. `NomeBookmark` é o nome do *bookmark*, único no conjunto de *bookmarks* do utilizador que o registou.
+`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `IdentificadorUtilizadorParticipante` é o identificador de um utilizador participante no projeto. `IdentificadorUtilizadorBookmark` é o identificador do utilizador que registou o bookmark. `NomeBookmark` é o nome do *bookmark*, único no conjunto de *bookmarks* do utilizador que o registou. 'NomeDiretório' é o nome de um diretório no projeto.
 
 Os identificadores de utilizador `IdentificadorUtilizadorParticipante` e `IdentificadorUtilizadorBookmark` podem ser diferentes, caso o *bookmark* tenha sido partilhado.
 
@@ -324,6 +324,7 @@ Entrada:
 
       PAB IdentificadorUtilizador IdentificadorProjeto IdentificadorUtilizadorParticipante
       IdentificadorUtilizadorBookmark NomeBookmark
+      NomeDiretório > NomeDiretório > ...
 
 Saída com sucesso:
 
