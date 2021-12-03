@@ -243,7 +243,7 @@ Mostra o conjunto de *bookmark* num projeto, incluindo os diretórios e sub-dire
 
 Os *bookmarks* são mostrados por ordem de data de registo, e por ordem lexicográfico de nome dentro da mesma data. Os diretórios são mostrados por ordem lexicográfica de nome.
 
-`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `NomeProjeto` é o nome do projeto. `NomeBookmark` é o nome de um *bookmark*, `DataBookmark` é a data de registo do *bookmark*, e `URL` é o url do *bookmark*. `NomeDiretório` é o nome de um diretório ou sub-diretório do projeto. `IdentificadorUtilizadorCriadorDeBookmark` é o identificador do utilizador que registou inicialmente o *bookmark*. `IdentificadorUtilizadorQueAdicionou` é o identificador do utilizador participante no projeto que adicionou o *bookmark*.
+`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `NomeProjeto` é o nome do projeto. `NomeBookmark` é o nome de um *bookmark*, e `URL` é o url do *bookmark*. `NomeDiretório` é o nome de um diretório ou sub-diretório do projeto. `IdentificadorUtilizadorCriadorDeBookmark` é o identificador do utilizador que registou inicialmente o *bookmark*. `IdentificadorUtilizadorQueAdicionou` é o identificador do utilizador participante no projeto que adicionou o *bookmark*.
 
 Entrada:
 
@@ -252,17 +252,17 @@ Entrada:
 Saída com sucesso:
 
       NomeProjeto
-      NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou DataBookmark [URL]
-      NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou DataBookmark [URL]
+      NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
+      NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
       ...
-      NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou DataBookmark [URL]
-      NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou DataBookmark [URL]
+      NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
+      NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
       ...
-      NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou DataBookmark [URL]
-      NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou DataBookmark [URL]
+      NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
+      NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
       ...
-      NomeDiretório > NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou DataBookmark [URL]
-      NomeDiretório > NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou DataBookmark [URL]
+      NomeDiretório > NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
+      NomeDiretório > NomeDiretório > NomeDiretório : NomeBookmark IdentificadorUtilizadorCriadorDeBookmark IdentificadorUtilizadorQueAdicionou [URL]
       ...
 
 Saída com insucesso:
@@ -279,7 +279,7 @@ Saída com insucesso:
 
 Adiciona um *bookmark* a um projeto de um utilizador.
 
-`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `IdentificadorUtilizadorParticipante` é o identificador de um utilizador participante no projeto, que pretende adicionar o *bookmark*. `IdentificadorUtilizadorBookmark` é o identificador do utilizador que registou o bookmark. `NomeBookmark` é o nome do *bookmark*, único no conjunto de *bookmarks* do utilizador que o registou. 'NomeDiretório' é o nome de um diretório no projeto.
+`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `IdentificadorUtilizadorParticipante` é o identificador de um utilizador participante no projeto, que pretende adicionar o *bookmark*. `IdentificadorUtilizadorBookmark` é o identificador do utilizador que registou o bookmark. `NomeBookmark` é o nome do *bookmark*, único no conjunto de *bookmarks* do utilizador que o registou.
 
 Os identificadores de utilizador `IdentificadorUtilizadorParticipante` e `IdentificadorUtilizadorBookmark` podem ser diferentes, caso o *bookmark* tenha sido partilhado.
 
@@ -287,7 +287,6 @@ Entrada:
 
       PAB IdentificadorUtilizador IdentificadorProjeto IdentificadorUtilizadorParticipante
       IdentificadorUtilizadorBookmark NomeBookmark
-      NomeDiretório > NomeDiretório > ...
 
 Saída com sucesso:
 
@@ -295,7 +294,7 @@ Saída com sucesso:
 
 Saída com insucesso:
 
-- Quando pelo menos um dos identificadores de utilizador não corresponde a um identificador registado.
+- Quando o identificador de utilizador não corresponde a um identificador registado.
 
       Utilizador inexistente.
 
@@ -315,7 +314,7 @@ Saída com insucesso:
 
 Remove um *bookmark* de um projeto.
 
-`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `IdentificadorUtilizadorParticipante` é o identificador de um utilizador participante no projeto. `IdentificadorUtilizadorBookmark` é o identificador do utilizador que registou o bookmark. `NomeBookmark` é o nome do *bookmark*, único no conjunto de *bookmarks* do utilizador que o registou. 'NomeDiretório' é o nome de um diretório no projeto.
+`IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `IdentificadorUtilizadorParticipante` é o identificador de um utilizador participante no projeto. `IdentificadorUtilizadorBookmark` é o identificador do utilizador que registou o bookmark. `NomeBookmark` é o nome do *bookmark*, único no conjunto de *bookmarks* do utilizador que o registou.
 
 Os identificadores de utilizador `IdentificadorUtilizadorParticipante` e `IdentificadorUtilizadorBookmark` podem ser diferentes, caso o *bookmark* tenha sido partilhado.
 
@@ -324,7 +323,6 @@ Entrada:
 
       PAB IdentificadorUtilizador IdentificadorProjeto IdentificadorUtilizadorParticipante
       IdentificadorUtilizadorBookmark NomeBookmark
-      NomeDiretório > NomeDiretório > ...
 
 Saída com sucesso:
 
@@ -443,19 +441,15 @@ Saída com insucesso:
   
       Data inválida.
 
-- Quando o tipo é inválido.
-  
-      Tipo inválido.
-
 - Quando já existe uma sessão com o nome indicado.
   
       Sessão existente.
 
 ### Consultar sessão (SC)
 
-Mostra os *bookmarks* numa sessão, ordenados de acordo com a coluna de Ordem da [Tabela 1](#tab-types). Dentro do mesmo tipo, são ordenados por ordem crescente de data de registo.
+Mostra os *bookmarks* numa sessão, ordenados de acordo com a coluna de Ordem da [Tabela 1](#tab-types). Dentro do mesmo tipo, são ordenados lexicograficamente por nome.
 
-`IdentificadorUtilizador` é o identificador do utilizador criador da sessão. `NomeSessão` é o nome da sessão, único no conjunto de sessões do utilizador. `Data` é a data de criação da sessão, e `Tipo` é o tipo da sessão.  `NomeBookmark` é o nome de um *bookmark*, `DataBookmark` é a data de registo do *bookmark*, e `URL` é o url do *bookmark*.
+`IdentificadorUtilizador` é o identificador do utilizador criador da sessão. `NomeSessão` é o nome da sessão, único no conjunto de sessões do utilizador.
 
 Entrada:
 
@@ -465,8 +459,8 @@ Entrada:
 Saída com sucesso:
 
       Data Tipo
-      NomeBookmark `DataBookmark` [URL]
-      NomeBookmark `DataBookmark` [URL]
+      NomeBookmark [URL]
+      NomeBookmark [URL]
       ...
 
 Saída com insucesso:
