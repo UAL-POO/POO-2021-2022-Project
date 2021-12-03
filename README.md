@@ -449,7 +449,7 @@ Saída com insucesso:
 
 Mostra os *bookmarks* numa sessão, ordenados de acordo com a coluna de Ordem da [Tabela 1](#tab-types). Dentro do mesmo tipo, são ordenados lexicograficamente por nome.
 
-`IdentificadorUtilizador` é o identificador do utilizador criador da sessão. `NomeSessão` é o nome da sessão, único no conjunto de sessões do utilizador.
+`IdentificadorUtilizador` é o identificador do utilizador criador da sessão. `NomeSessão` é o nome da sessão, único no conjunto de sessões do utilizador. `NomeBookmark` e `URL` são o nome e endereço de um bookmark.
 
 Entrada:
 
@@ -458,7 +458,7 @@ Entrada:
 
 Saída com sucesso:
 
-      Data Tipo
+      Data
       NomeBookmark [URL]
       NomeBookmark [URL]
       ...
