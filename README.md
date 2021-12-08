@@ -589,7 +589,7 @@ Para efetuar as atualizações:
 
         git remote add upstream http://github.com/UAL-POO/POO-2021-2022-projeto
 
-2. Atualizar o `upstream` (sempre que existirem
+2. Atualizar o `upstream` (sempre que existirem atualizações)
 
         git fetch upstream
 
