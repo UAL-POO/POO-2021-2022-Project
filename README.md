@@ -49,7 +49,7 @@ Um *bookmark* simples tem um nome, um *url*, e uma data de registo. O *bookmark*
 
 Existem *projetos*, que correspondem a coleções de *bookmarks*. Para associar um *bookmark* a um projeto, o utilizador deve ser o autor do *bookmark*, ou ter acesso através de uma partilha.
 
-Um projeto tem um nome único e uma data de criação. Além de *bookmarks*, um projeto pode conter diretórios de *bookmarks*. Um diretório pode também conter outros diretórios.
+Um projeto tem um nome e uma data de criação. Além de *bookmarks*, um projeto pode conter diretórios de *bookmarks*. Um diretório pode também conter outros diretórios.
 
 Além do utilizador criador do projeto, podem ainda ser associados mais dois tipos de utilizador participante: gestores e membros. Um gestor de um projeto pode adicionar e remover *bookmarks* e diretórios; um membro de um projeto pode adicionar e remover *bookmarks*. O criador do projeto é também considerado gestor.
 
@@ -337,10 +337,6 @@ Saída com insucesso:
 - Quando o identificador de projeto não corresponde a um projeto registado.
 
       Projeto inexistente.
-
-- Quando o utilizador participante não tem permissões para a operação.
-
-      Sem permissões.
 
 - Quando o nome do *bookmark* não está associado ao projeto.
 
