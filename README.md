@@ -233,7 +233,7 @@ Saída com insucesso:
 
       Utilizador inexistente.
 
-- Quando não existe um projeto com o nome indicado associado ao utilizador.
+- Quando não existe um projeto com o identificador indicado associado ao utilizador.
 
       Projeto inexistente.
 
