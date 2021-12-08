@@ -583,7 +583,7 @@ O código deve ser mantido dentro de um diretório `src`.
 
 O repositório *template* de referência está disponível em <https://github.com/UAL-POO/POO-2021-2022-projeto>
 
-Para efetuar a atualizações:
+Para efetuar as atualizações:
 
 1. Registar o repositório como `upstream` (só deve acontecer uma vez)
 
