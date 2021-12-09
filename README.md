@@ -444,7 +444,7 @@ Saída com insucesso:
 
 ### Consultar sessão (SC)
 
-Mostra os *bookmarks* numa sessão, ordenados de acordo com a coluna de Ordem da [Tabela 1](#tab-types). Dentro do mesmo tipo, são ordenados lexicograficamente por nome.
+Mostra os *bookmarks* numa sessão, ordenados de acordo com a coluna de Ordem da [Tabela 1](#tab-types). Dentro do mesmo tipo, são ordenados lexicograficamente por nome. Dentro do mesmo nome, são ordenados por ordem de identificador de utilizador que registou o *bookmark*.
 
 `IdentificadorUtilizador` é o identificador do utilizador criador da sessão. `NomeSessão` é o nome da sessão, único no conjunto de sessões do utilizador. `NomeBookmark` e `URL` são o nome e endereço de um bookmark.
 
