@@ -241,7 +241,7 @@ Saída com insucesso:
 
 Mostra o conjunto de *bookmark* num projeto, incluindo os diretórios e sub-diretórios (se existirem).
 
-Os *bookmarks* são mostrados por ordem de data de registo, e por ordem lexicográfico de nome dentro da mesma data. Os diretórios são mostrados por ordem lexicográfica de nome.
+Os *bookmarks* são mostrados por ordem de data de registo, e por ordem lexicográfico de nome dentro da mesma data. Os diretórios são mostrados por ordem lexicográfica de nome, em cada nível da hierarquia de diretórios.
 
 `IdentificadorUtilizador` é o identificador do utilizador criador do projeto, e `IdentificadorProjeto` é o identificador do projeto. `NomeProjeto` é o nome do projeto. `NomeBookmark` é o nome de um *bookmark*, e `URL` é o url do *bookmark*. `NomeDiretório` é o nome de um diretório ou sub-diretório do projeto. `IdentificadorUtilizadorCriadorDeBookmark` é o identificador do utilizador que registou inicialmente o *bookmark*. `IdentificadorUtilizadorQueAdicionou` é o identificador do utilizador participante no projeto que adicionou o *bookmark*.
 
